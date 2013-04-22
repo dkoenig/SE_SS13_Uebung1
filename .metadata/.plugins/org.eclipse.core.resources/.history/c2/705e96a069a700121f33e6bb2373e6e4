@@ -1,0 +1,20 @@
+package defaultname;
+
+import java.util.*;
+
+public class Equipment
+{
+
+	
+	private invalid Farbe: int; 
+	
+
+	public invalid getFarbe: int() { 
+	// ToDo
+	return this.Farbe: int;
+	}
+	public void setFarbe: int(invalid Farbe: int) { 
+	// ToDo
+	this.Farbe: int = Farbe: int;
+	}
+} 

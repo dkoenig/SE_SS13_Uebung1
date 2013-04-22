@@ -1,0 +1,50 @@
+	public class Spieler {
+	
+		private invalid Name: String; 
+		private invalid Alter: int; 
+		private invalid Geschlecht: String; 
+		private invalid Herzschlag: int; 
+		private invalid Skill: int; 
+	
+
+		public invalid getName: String() { 
+		// ToDo
+		return this.Name: String;
+		}
+		public void setName: String(invalid Name: String) { 
+		// ToDo
+		this.Name: String = Name: String;
+		}
+		public invalid getAlter: int() { 
+		// ToDo
+		return this.Alter: int;
+		}
+		public void setAlter: int(invalid Alter: int) { 
+		// ToDo
+		this.Alter: int = Alter: int;
+		}
+		public invalid getGeschlecht: String() { 
+		// ToDo
+		return this.Geschlecht: String;
+		}
+		public void setGeschlecht: String(invalid Geschlecht: String) { 
+		// ToDo
+		this.Geschlecht: String = Geschlecht: String;
+		}
+		public invalid getHerzschlag: int() { 
+		// ToDo
+		return this.Herzschlag: int;
+		}
+		public void setHerzschlag: int(invalid Herzschlag: int) { 
+		// ToDo
+		this.Herzschlag: int = Herzschlag: int;
+		}
+		public invalid getSkill: int() { 
+		// ToDo
+		return this.Skill: int;
+		}
+		public void setSkill: int(invalid Skill: int) { 
+		// ToDo
+		this.Skill: int = Skill: int;
+		}
+	} 

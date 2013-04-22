@@ -1,0 +1,64 @@
+
+/*
+ * @author: Koenig, Manke
+ *
+ */
+	public class Spieler {
+	
+		private java.lang.String Name; 
+		private int Alter; 
+		private java.lang.String Geschlecht; 
+		private int Herzschlag; 
+		private invalid Skill: int; 
+	
+		public  void int bieten() { 
+		// ToDo
+		}
+		public  void boolean folden() { 
+		// ToDo
+		}
+		public  void int raisen() { 
+		// ToDo
+		}
+
+		public java.lang.String getName() { 
+		// ToDo
+		return this.Name;
+		}
+		public void setName(java.lang.String Name) { 
+		// ToDo
+		this.Name = Name;
+		}
+		public int getAlter() { 
+		// ToDo
+		return this.Alter;
+		}
+		public void setAlter(int Alter) { 
+		// ToDo
+		this.Alter = Alter;
+		}
+		public java.lang.String getGeschlecht() { 
+		// ToDo
+		return this.Geschlecht;
+		}
+		public void setGeschlecht(java.lang.String Geschlecht) { 
+		// ToDo
+		this.Geschlecht = Geschlecht;
+		}
+		public int getHerzschlag() { 
+		// ToDo
+		return this.Herzschlag;
+		}
+		public void setHerzschlag(int Herzschlag) { 
+		// ToDo
+		this.Herzschlag = Herzschlag;
+		}
+		public invalid getSkill: int() { 
+		// ToDo
+		return this.Skill: int;
+		}
+		public void setSkill: int(invalid Skill: int) { 
+		// ToDo
+		this.Skill: int = Skill: int;
+		}
+	} 

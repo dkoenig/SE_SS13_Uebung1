@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="defaultname" nsURI="http://defaultname/1.0" nsPrefix="defaultname">
+  <eClassifiers xsi:type="ecore:EClass" name="Spieler" eSuperTypes="#//Mensch">
+    <eOperations name="bieten: int"/>
+    <eOperations name="folden: boolean"/>
+    <eOperations name="raisen: int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Skill: int"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has" upperBound="-1" eType="#//Karten"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has" upperBound="-1" eType="#//Chips"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Dealer" eSuperTypes="#//Mensch">
+    <eOperations name="gebeKarten: void"/>
+    <eOperations name="mischeKarten: void"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Mischfunktion: boolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Mensch">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name: String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Alter: int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Geschlecht: String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Herzschlag: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass0"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Zuschauer" eSuperTypes="#//Mensch">
+    <eOperations name="# klatschen: boolean"/>
+    <eOperations name="# pfeifen: boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="# Geräuschpegel: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Moderator" eSuperTypes="#//Mensch">
+    <eOperations name="moderieren: boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Moderationskarten: int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Fachwissen: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Equipment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Farbe: int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Form: String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Pokertisch" eSuperTypes="#//Equipment"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Chips" eSuperTypes="#//Equipment">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EReference0" eType="#//Spieler"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EReference1" eType="#//Spieler"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Wert: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Karten" eSuperTypes="#//Equipment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Farbe: String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Wert: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BigBlind" eSuperTypes="#//Equipment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Wert: int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SmallBlind" eSuperTypes="#//Equipment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Wert: int"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1354" class="Beuth_HS_MD_M_SE_AT_Uebung1_Petrasch_Generator.Activator" localization="OSGI-INF/l10n/bundle" name="Acceleo Beuth_HS_MD_M_SE_AT_Uebung1_Petrasch_Generator Module Runtime Plug-in" project="Beuth_HS_MD_M_SE_AT_Uebung1_Petrasch_Generator" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="1355" class="org.eclipse.acceleo.examples.uml2java.UML2JavaActivator" localization="plugin" name="%pluginName" project="org.eclipse.acceleo.examples.uml2java" provider="%providerName"/>
+	<bundle bundleID="1356" class="org.eclipse.acceleo.examples.uml2java.ui.Activator" localization="OSGI-INF/l10n/bundle" name="Acceleo Uml2java Module IDE Plug-in" project="org.eclipse.acceleo.examples.uml2java.ui" provider="Eclipse Modeling Project"/>
+</map>

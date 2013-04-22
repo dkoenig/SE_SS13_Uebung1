@@ -1,0 +1,37 @@
+
+/*
+ * @author: K?nig, Manke
+ *
+ */
+	public class BigBlind {
+	
+		private invalid Farbe: int; 
+		private invalid Form: String; 
+		private invalid Wert: int; 
+	
+
+		public invalid getFarbe: int() { 
+		// ToDo
+		return this.Farbe: int;
+		}
+		public void setFarbe: int(invalid Farbe: int) { 
+		// ToDo
+		this.Farbe: int = Farbe: int;
+		}
+		public invalid getForm: String() { 
+		// ToDo
+		return this.Form: String;
+		}
+		public void setForm: String(invalid Form: String) { 
+		// ToDo
+		this.Form: String = Form: String;
+		}
+		public invalid getWert: int() { 
+		// ToDo
+		return this.Wert: int;
+		}
+		public void setWert: int(invalid Wert: int) { 
+		// ToDo
+		this.Wert: int = Wert: int;
+		}
+	} 

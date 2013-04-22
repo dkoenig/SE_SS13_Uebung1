@@ -1,0 +1,19 @@
+
+/*
+ * @author: Koenig, Manke
+ *
+ */
+	public class Pokertisch {
+	
+		private java.lang.String Form; 
+	
+
+		public java.lang.String getForm() { 
+		// ToDo
+		return this.Form;
+		}
+		public void setForm(java.lang.String Form) { 
+		// ToDo
+		this.Form = Form;
+		}
+	} 

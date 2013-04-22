@@ -1,0 +1,28 @@
+
+/*
+ * @author: Koenig, Manke
+ *
+ */
+	public class Chips {
+	
+		private java.lang.String Form; 
+		private int Wert; 
+	
+
+		public java.lang.String getForm() { 
+		// ToDo
+		return this.Form;
+		}
+		public void setForm(java.lang.String Form) { 
+		// ToDo
+		this.Form = Form;
+		}
+		public int getWert() { 
+		// ToDo
+		return this.Wert;
+		}
+		public void setWert(int Wert) { 
+		// ToDo
+		this.Wert = Wert;
+		}
+	} 

@@ -1,0 +1,37 @@
+
+/*
+ * @author: K?nig, Manke
+ *
+ */
+	public class Chips {
+	
+		private int Farbe; 
+		private java.lang.String Form; 
+		private int Wert; 
+	
+
+		public int getFarbe() { 
+		// ToDo
+		return this.Farbe;
+		}
+		public void setFarbe(int Farbe) { 
+		// ToDo
+		this.Farbe = Farbe;
+		}
+		public java.lang.String getForm() { 
+		// ToDo
+		return this.Form;
+		}
+		public void setForm(java.lang.String Form) { 
+		// ToDo
+		this.Form = Form;
+		}
+		public int getWert() { 
+		// ToDo
+		return this.Wert;
+		}
+		public void setWert(int Wert) { 
+		// ToDo
+		this.Wert = Wert;
+		}
+	} 

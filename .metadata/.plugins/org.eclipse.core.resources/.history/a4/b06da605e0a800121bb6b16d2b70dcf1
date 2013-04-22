@@ -1,0 +1,46 @@
+
+/*
+ * @author: Koenig, Manke
+ *
+ */
+	public class Karten {
+	
+		private int Farbe; 
+		private java.lang.String Form; 
+		private java.lang.String Farbe; 
+		private int Wert; 
+	
+
+		public int getFarbe() { 
+		// ToDo
+		return this.Farbe;
+		}
+		public void setFarbe(int Farbe) { 
+		// ToDo
+		this.Farbe = Farbe;
+		}
+		public java.lang.String getForm() { 
+		// ToDo
+		return this.Form;
+		}
+		public void setForm(java.lang.String Form) { 
+		// ToDo
+		this.Form = Form;
+		}
+		public java.lang.String getFarbe() { 
+		// ToDo
+		return this.Farbe;
+		}
+		public void setFarbe(java.lang.String Farbe) { 
+		// ToDo
+		this.Farbe = Farbe;
+		}
+		public int getWert() { 
+		// ToDo
+		return this.Wert;
+		}
+		public void setWert(int Wert) { 
+		// ToDo
+		this.Wert = Wert;
+		}
+	} 

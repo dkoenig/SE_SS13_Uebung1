@@ -1,0 +1,28 @@
+
+/*
+ * @author: K?nig, Manke
+ *
+ */
+	public class Equipment {
+	
+		private invalid Farbe: int; 
+		private invalid Form: String; 
+	
+
+		public invalid getFarbe: int() { 
+		// ToDo
+		return this.Farbe: int;
+		}
+		public void setFarbe: int(invalid Farbe: int) { 
+		// ToDo
+		this.Farbe: int = Farbe: int;
+		}
+		public invalid getForm: String() { 
+		// ToDo
+		return this.Form: String;
+		}
+		public void setForm: String(invalid Form: String) { 
+		// ToDo
+		this.Form: String = Form: String;
+		}
+	} 
